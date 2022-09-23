@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "系统设置",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "u--text": "/uni_modules/uview-ui/components/u--text/u--text"
+  }
+}

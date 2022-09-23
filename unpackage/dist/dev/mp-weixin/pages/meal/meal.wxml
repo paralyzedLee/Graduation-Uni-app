@@ -1,0 +1,1 @@
+<view class="container"><view class="coupon"><image class="couImage" src="../../static/tiao.png"></image><text class="Word">餐券</text></view><button class="primary">领取餐券</button></view>

@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/my/my",
+    "pages/meal/meal",
+    "pages/setting/setting",
+    "pages/keyInfo/keyInfo",
+    "pages/authentication/authentication"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "一键开锁",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#c0d8f1"
+  },
+  "tabBar": {
+    "color": "#272636",
+    "selectedColor": "#0000ff",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/icon/首页-1.png",
+        "selectedIconPath": "static/icon/首页-2.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "其他服务",
+        "iconPath": "static/icon/我的-1.png",
+        "selectedIconPath": "static/icon/我的-2.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000
+  },
+  "uniStatistics": {
+    "enable": true
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

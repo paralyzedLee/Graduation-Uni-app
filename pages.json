@@ -1,0 +1,77 @@
+{
+	"easycom": {
+		"^u-(.*)": "@/uni_modules/uview-ui/components/u-$1/u-$1.vue"
+	},
+
+	"pages": [{
+		"path": "pages/index/index",
+		"style": {
+			"navigationBarTitleText": "一键开锁",
+			"enablePullDownRefresh": true
+		}
+	}, {
+		"path": "pages/my/my",
+		"style": {
+			"navigationBarTitleText": "其他服务",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/meal/meal",
+		"style": {
+			"navigationBarTitleText": "餐券领取",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/setting/setting",
+		"style": {
+			"navigationBarTitleText": "系统设置",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/keyInfo/keyInfo",
+		"style": {
+			"navigationBarTitleText": "客房信息",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/authentication/authentication",
+		"style": {
+			"navigationBarTitleText": "身份认证",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	// tabBar是自带底部导航栏
+	"tabBar": {
+		"color": "#272636",
+		"selectedColor": "#0000ff",
+		"backgroundColor": "#fff",
+		"borderStyle": "black",
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/icon/首页-1.png",
+				"selectedIconPath": "static/icon/首页-2.png"
+			},
+			{
+				"pagePath": "pages/my/my",
+				"text": "其他服务",
+				"iconPath": "static/icon/我的-1.png",
+				"selectedIconPath": "static/icon/我的-2.png"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "一键开锁",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#c0d8f1",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

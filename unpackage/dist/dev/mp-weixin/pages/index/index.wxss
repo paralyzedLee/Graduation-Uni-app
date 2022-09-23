@@ -1,0 +1,58 @@
+
+.container {
+	background-color: #c0d8f1;
+	padding: 1rpx;
+	height: 100%;
+}
+.swiper {
+	height: 300rpx;
+}
+.swiper-item {
+	width: 100%;
+	display: block;
+	height: 300rpx;
+	line-height: 300rpx;
+	text-align: center;
+}
+.key {
+	background-color: white;
+	width: 90%;
+	margin: 20rpx auto 0;
+	position: relative;
+	min-height: 100rpx;
+	border-radius: 1em 1em 1em 1em;
+	display: flex;
+}
+.keyItem {
+	width: 50%;
+	height: 500rpx;
+	position: relative;
+	border-bottom: #FFF0F5 1rpx solid;
+}
+.keyImage {
+	position: absolute;
+	width: 180rpx;
+	height: 180rpx;
+	left: 85%;
+	margin-left: -40rpx;
+	top: 15%;
+}
+.keyWord1 {
+	position: relative;
+	left: 90%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	top: calc(5% + 220rpx);
+	font-size: 40rpx;
+}
+.keyWord2 {
+	position: relative;
+	left: 60%;
+	-webkit-transform: translateX(-50%);
+	        transform: translateX(-50%);
+	top: calc(5% + 270rpx);
+	font-size: 40rpx;
+	color: #9035ff;
+}
+
+
